@@ -14,7 +14,7 @@ Copyright (c) 2023-Forever bangetto
 
         2.2. Videos/Streams/Pictures
             - If the project is not in the spoitlight, and just in the background you can use it without crediting [but crediting is always welcomed].
-            - If the project is in the spoitlight you NEED to credit it, this means that you need to have a link to the project's original page directly in the the first 5 lines of the desception.
+            - If the project is in the spoitlight you NEED to credit it, this means that you need to have a link to the project's original page directly in the the first 5 lines of the description.
 
         2.3. Promotion
             - If you want to promote something with my projects you can do it if I give permission to it.
@@ -26,7 +26,7 @@ Copyright (c) 2023-Forever bangetto
 - What you can NOT do
     1. Generaly
         - You can't claim ownership over the project in anyway.
-        - You can't use the project that are not free-to-download in any way.
+        - You can't use the project that are not free-to-download in any way [this also includes in-game purcheses/extendet funcionality in a paid version, but not includes some skins are long there's maximum 1/2 of avalibe skins are only accesable if you pay money in any way.].
     
     2. Publicly:
         - You can't re-upload the project.
@@ -42,3 +42,11 @@ Copyright (c) 2023-Forever bangetto
 
         2.3 Promotion
             - You can't promote anything with this project without my permission.
+
+
+------------------------------------
+
+The using of this License:
+
+
+This License can be used by anyone
