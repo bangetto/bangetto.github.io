@@ -49,4 +49,16 @@ Copyright (c) 2023-Forever bangetto
 The using of this License:
 
 
-This License can be used by anyone
+
+This License can be used by anyone, as long they follow this infrastructure:
+
+In the main folder of the project in a file called "license.txt" the following template must exist:
+
+    License: bangetto
+
+    Name: <your project name>
+    Copyright holder: <the Copyright holder ower the project, usually the owner>
+    Co-Copyright holders: <a list of people that have been helped this project [helper1, helper2], this also can be refering to an another file [Included in the "credits.txt" file]>
+
+
+    Read the License here: https://bangetto.github.io/licenses/bangetto.txt
