@@ -1,23 +1,24 @@
 bangetto License
 
-Copyright (c) 2023-Forever bangetto
+Copyright (c) 2023-Forever <Copyright holder>
 
 
 - What you can do
     1. Publicly:
-        - You can create addons wich still require the base project to work and only contain the modified files
-        - You can create new projects based on the project or embed the projects into other projects as long you do revune sharing [the percentage of the revune sharing is based on how much is my project in your project, contact me so we can discuss these details]
-        - You can use limited amount of assets as long you contact me and give credit in the main folder of the project [like a credits.txt next to the pack.mcmeta] wich contains my name [the original creator of the assets], the name of the projects you used the assets from and links to them in an way that is not misunderstandable and easly readable for anyone.
+        - You can create addons which still require the base project to work and only contain the modified files
+        - You can create new projects based on the project or embed the projects into other projects as long you do revune sharing [the percentage of the revune sharing is half of the percentage of my project in your project, but contact me so we can discuss these details]
+        - You can use limited amount of assets as long you contact me and give credit in the main folder of the project [like a credits.txt] which contains my name [the original creator of the assets], the name of the projects you used the assets from and links to them in an way that is not misunderstandable and easly readable for anyone.
     
         2.1. Servers
             - You need to credit me [the original author] in an way that is always accesable by anyone at anytime.
 
         2.2. Videos/Streams/Pictures
             - If the project is not in the spoitlight, and just in the background you can use it without crediting [but crediting is always welcomed].
-            - If the project is in the spoitlight you NEED to credit it, this means that you need to have a link to the project's original page directly in the the first 5 lines of the description.
+            - If the project is in the spoitlight you NEED to credit it, this means that you need to have a link to the project's original page directly in the first 5 lines of the description.
 
         2.3. Promotion
-            - If you want to promote something with my projects you can do it if I give permission to it.
+            - You must only tell the truth about my projects and not promote negative things with them such as "racism".
+            - You must mention that I am the creator of my projects.
 
     2. Privitely:
         - You can do what ever you want with it, create modifications, merge it with other packs, you have complet freedom what you do with it.
@@ -41,7 +42,7 @@ Copyright (c) 2023-Forever bangetto
             - You can't use this project if it's in the spoitlight and you don't credit me as mentioned above.
 
         2.3 Promotion
-            - You can't promote anything with this project without my permission.
+            - You can't promote anything with this project without telling the truth, mentioning me as the creator and avoiding negative topics.
 
 
 ------------------------------------
@@ -58,7 +59,6 @@ In the main folder of the project in a file called "license.txt" the following t
 
     Name: <your project name>
     Copyright holder: <the Copyright holder ower the project, usually the owner>
-    Co-Copyright holders: <a list of people that have been helped this project [helper1, helper2], this also can be refering to an another file [Included in the "credits.txt" file]>
-
+    
 
     Read the License here: https://bangetto.github.io/licenses/bangetto.txt
