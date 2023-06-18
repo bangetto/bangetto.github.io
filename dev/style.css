@@ -21,6 +21,7 @@ body {
   text-shadow: 5px 5px #333333;
   z-index: -1;
   background-size: cover;
+  background-position: center;
   background-image: url(https://media0.giphy.com/media/r8GMmlV8qGrfZ3txfX/giphy.gif?cid=6c09b952scw9q6i22f1jdsqsxq7kp0bh4q1v2rzdms0hr228&ep=v1_gifs_search&rid=giphy.gif);
 }
 
@@ -48,7 +49,7 @@ p {
   background-position: center;
   color: #FFFFFF;
   text-shadow: 5px 5px #333333;
-  line-height: 10%
+  line-height: 10%;
 }
 
 h2 {
@@ -70,16 +71,24 @@ h2 {
   align-items: right;
   justify-content: center;
   text-align: right;
-  margin-right: 10vh;
+  background-image: url(painting.png);
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  text-shadow: 5px 5px #333333;
+  line-height: 10%
 }
 
 .section-three h2 {
   font-size: 5rem;
+  margin-right: 10vh;
 }
 
 .section-three p {
   font-size: 1.5rem;
   text-align: right;
+  margin-right: 10vh;
+  text-shadow: 3px 3px #333333;
 }
 
 button {
@@ -97,6 +106,7 @@ button {
   transition-duration: 0.2s;
   cursor: pointer;
   background-color: #8b8b8b;
+  text-shadow: 1px 1px #333333;
 }
 
 button:hover {
@@ -120,4 +130,9 @@ button:hover {
 
 ::-webkit-scrollbar-thumb {
   background-color: #888;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
 }
