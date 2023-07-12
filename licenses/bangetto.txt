@@ -1,6 +1,6 @@
 bangetto License
 
-Copyright (c) 2023-Forever <Copyright holder>
+Copyright (c) 2023 <Copyright holder>
 
 
 - What you can do

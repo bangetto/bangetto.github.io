@@ -19,10 +19,17 @@ body {
   margin-bottom: 20px;
   color: #FFFFFF;
   text-shadow: 5px 5px #333333;
-  z-index: -1;
   background-size: cover;
   background-position: center;
   background-image: url(https://media0.giphy.com/media/r8GMmlV8qGrfZ3txfX/giphy.gif?cid=6c09b952scw9q6i22f1jdsqsxq7kp0bh4q1v2rzdms0hr228&ep=v1_gifs_search&rid=giphy.gif);
+}
+
+.main img {
+  max-width: 95%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 5%;
 }
 
 h1 {
@@ -52,7 +59,7 @@ p {
   line-height: 10%;
 }
 
-h2 {
+.section-two h2 {
   font-size: 6rem;
   margin-left: 10vh;
 }
