@@ -6,7 +6,7 @@ Copyright (c) 2023 <Copyright holder>
 - What you can do
     1. Publicly:
         - You can create addons which still require the base project to work and only contain the modified files
-        - You can create new projects based on the project or embed the projects into other projects as long you do revune sharing [the percentage of the revune sharing is half of the percentage of my project in your project, but contact me so we can discuss these details]
+        - You can create new projects based on the project or embed the projects into other projects as long you do revune sharing [the percentage of the revune sharing is half of the percentage of my project in your project, but contact me so we can discuss these details], but Modpacks can still freely use it as long they don't modify it!
         - You can use limited amount of assets as long you contact me and give credit in the main folder of the project [like a credits.txt] which contains my name [the original creator of the assets], the name of the projects you used the assets from and links to them in an way that is not misunderstandable and easly readable for anyone.
     
         2.1. Servers
@@ -32,7 +32,7 @@ Copyright (c) 2023 <Copyright holder>
     2. Publicly:
         - You can't re-upload the project.
         - You can't use the project's name to advertise something that don't requires the user to install this project.
-        - You can't embed this project into something else if we don't discuss a revune sharing or you don't keep you to that.
+        - You can't embed this project into something else if we don't discuss a revune sharing or you don't keep you to that, or use it in a modpack modified.
         - You can't use assets of this projects if you don't credit me in the way as mentioned above.
     
         2.1. Servers
@@ -55,9 +55,8 @@ This License can be used by anyone, as long they follow this infrastructure:
 
 In the main folder of the project in a file called "license.txt" the following template must exist:
 
-    License: bangetto
 
-    Name: <your project name>
+    License: bangetto
     Copyright holder: <the Copyright holder ower the project, usually the owner>
     
 
