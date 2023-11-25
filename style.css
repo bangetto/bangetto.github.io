@@ -21,7 +21,7 @@ body {
   text-shadow: 5px 5px #333333;
   background-size: cover;
   background-position: center;
-  background-image: url(_img/main_bg.gif);
+  background-image: url(img/main_bg.gif);
 }
 
 .main img {
@@ -50,7 +50,7 @@ p {
   justify-content: center;
   transition: height 0.5s ease-in-out;
   background-color: rgba(255, 255, 255, 0.5);
-  background-image: url(_img/painting.png);
+  background-image: url(img/painting.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -95,7 +95,7 @@ p {
   align-items: right;
   justify-content: center;
   text-align: right;
-  background-image: url("_img/viabackwards+_back.png");
+  background-image: url("img/viabackwards+_back.png");
   background-size: cover;
   background-position: center;
   color: #FFFFFF;
