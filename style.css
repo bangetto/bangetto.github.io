@@ -1,28 +1,176 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #c6c6c6;
   color: #3f3f3f;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  text-shadow: 5px 5px #333333;
+  background-size: cover;
+  background-position: center;
+  background-image: url(_img/main_bg.gif);
 }
 
-.main {
-  text-shadow: 2px 2px #252525;
+.main img {
+  max-width: 95%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 5%;
 }
 
 h1 {
   font-size: 5rem;
   text-align: center;
+  line-height: 1;
 }
 
 p {
   font-size: 2rem;
+}
+
+.section-two {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  transition: height 0.5s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url(_img/painting.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #FFFFFF;
+  text-shadow: 5px 5px #333333;
+}
+
+.section-two h2 {
+  font-size: 6rem;
+  margin-left: 5vh;
+  line-height: 0%;
+  margin-bottom: 0;
+}
+
+.wpila-nl {
+  font-size: 1.5rem;
+  margin-left: 5vh;
+  text-shadow: 2px 2px #333333;
+  margin-top: 0;
+  color: rgba(235, 235, 235, 235);
+}
+
+.wpila-desc {
+  font-size: 2.5rem;
+  margin-left: 5vh;
+  text-shadow: 2px 2px #333333;
+  margin-top: 0;
+}
+
+.section-two p {
+  font-size: 1.5rem;
+  margin-left: 5vh;
+  text-shadow: 2px 2px #333333;
+}
+
+
+.section-three {
+  height: 40vh;
+  background-color: #c6c6c6;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+  text-align: right;
+  background-image: url("_img/viabackwards+_back.png");
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  text-shadow: 5px 5px #333333;
+}
+
+.section-three h2 {
+  font-size: 4rem;
+  margin-right: 5vh;
+  line-height: normal;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.section-three p {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 1.5rem;
+  text-align: right;
+  margin-right: 5vh;
+  text-shadow: 2px 2px #333333;
+  line-height: normal;
+  line-break: normal;
+}
+
+
+.more-projects {
+  background-color: rgb(54, 54, 54);
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.about {
+  background-color: black;
+  height: 72vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(230, 230, 230);
+}
+
+.about h2 {
+  font-size: 3rem;
+  text-align: left;
+  align-items: start;
+  line-height: 0;
+}
+
+.about img {
+  float: left;
+  margin-left: 1vh;
+  margin-right: 2vh;
+  max-height: 40vh;
+  max-width: 50%;
+}
+
+.about p {
+  font-size: 1.5rem;
+}
+
+
+
+.footer {
+  background-color: rgb(54, 54, 54);
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 button {
@@ -34,14 +182,13 @@ button {
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
+  align-items: center;
   display: inline-block;
   font-size: 16px;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: 4px 2px;
   transition-duration: 0.2s;
   cursor: pointer;
   background-color: #8b8b8b;
-  text-align: center;
   text-shadow: 1px 1px #333333;
 }
 
@@ -51,11 +198,39 @@ button:hover {
   border-top: 6px solid #979797;
   border-left: 6px solid #979797;
   color: rgb(226, 226, 226);
-  background-color: #6d6d6d; 
+  background-color: #6d6d6d;
 }
 
 ::selection {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  outline: black solid 32px;
+  background: rgba(255, 255, 255, 0.25);
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 7px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(136, 136, 136, 1);
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
 }

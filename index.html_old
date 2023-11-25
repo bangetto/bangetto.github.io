@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>bangetto's Navigator</title>
+    <meta name="description" content="bangetto's official english website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css_old">
+    <link rel="shortcut icon" type="image/png" href="icon.png">
+  </head>
+  <body>
+    <div class="main">
+      <h1>Navigator</h1>
+      <p></p>
+      <a href="dev/index.html"><button type="button"><strong>Development</strong></button></a>
+      <p></p>
+      <a href="licenses/index.html"><button type="button"><strong>Licenses</strong></button></a>
+    </div>
+
+      <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+  <script>
+    kofiWidgetOverlay.draw('bangetto', {
+      'type': 'floating-chat',
+      'floating-chat.donateButton.text': 'Support me',
+      'floating-chat.donateButton.background-color': '#00b9fe',
+      'floating-chat.donateButton.text-color': '#fff'
+    });
+  </script>
+  </body>
+</html>

@@ -2,29 +2,60 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>bangetto's Navigator</title>
+    <title>bangetto's Development</title>
     <meta name="description" content="bangetto's official english website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" type="image/png" href="icon.png">
+    <link rel="shortcut icon" type="image/png" href="_img/icon.png">
   </head>
   <body>
     <div class="main">
-      <h1>Navigator</h1>
-      <p></p>
-      <a href="dev/index.html"><button type="button"><strong>Development</strong></button></a>
-      <p></p>
-      <a href="licenses/index.html"><button type="button"><strong>Licenses</strong></button></a>
+      <img src="_img/bangetto.png">
+      <button type="button" onclick="scrollToSectionTwo()"><strong>View projects</strong></button>
+    </div>
+    <div class="section-two" id="section-two">
+      <div class="title-two" id="title-two">
+        <h2>WPILA</h2>
+      </div>
+      <p><strong><div class="wpila-nl">What Painting I'm Looking At?<br></div><div class="wpila-desc"><br>Ads previews to Paintings</div></strong></p>
+    </div>
+    <hr>
+    <div class="section-three" id="section-three">
+      <h2>ViaBackwards-Plus</h2>
+      <p><strong>Enchances the Viabackwards experience, by backporting textures</strong></p>
+    </div>
+    <hr>
+    <div class="more-projects">
+      <a href="https://modrinth.com/user/bangetto" target="_blank">
+        <button type="button"><strong>More Projects</strong></button>
+      </a>
     </div>
 
-      <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-  <script>
-    kofiWidgetOverlay.draw('bangetto', {
-      'type': 'floating-chat',
-      'floating-chat.donateButton.text': 'Support me',
-      'floating-chat.donateButton.background-color': '#00b9fe',
-      'floating-chat.donateButton.text-color': '#fff'
-    });
-  </script>
+    <div class="about">
+      <h2>About</h2>
+      <p><img src="_img/bangetto_profile.png">
+      Hi! I'm bangetto! My ,,carrier" as a resources pack maker started with <a href="https://modrinth.com/resourcepack/vb+" target="_blank">Viabackwards-Plus</a> then I got annoyed that how many same-looking items are there and created <a href="https://modrinth.com/resourcepack/wpila" target="_blank">What Painting I'm Looking At?</a> and did some tweaks where I think needed like the <a href="https://modrinth.com/resourcepack/bag" target="_blank">Armor Glint</a>, <a href="https://modrinth.com/resourcepack/bps" target="_blank">Powdered Snow</a> and the <a href="https://modrinth.com/resourcepack/art" target="_blank">Redstone Torch</a>!<br><i>More comming soon!</i></p>
+    </div>
+
+    <div class="footer">
+      
+    </div>
+
+
+
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+      kofiWidgetOverlay.draw('bangetto', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#00b9fe',
+        'floating-chat.donateButton.text-color': '#fff'
+      });</script>
+    <script>
+      function scrollToSectionTwo() {
+        var sectionTwo = document.getElementById("section-two");
+        sectionTwo.scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
   </body>
 </html>
