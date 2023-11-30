@@ -173,6 +173,10 @@ p {
   justify-content: center;
 }
 
+.footer :any-link {
+  color: #636363;
+}
+
 button {
   border-bottom: 6px solid #565656;
   border-right: 6px solid #565656;
