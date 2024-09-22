@@ -24,13 +24,49 @@ body {
   background-image: url(img/main_bg.gif);
 }
 
-.main img {
-  max-width: 95%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 5%;
+	.main img {
+	  width: 75%;
+	  height: auto;
+	  display: block;
+	  margin: 0 auto;
+	  padding-bottom: 5%;
+	  transition: width 1s;
+	  animation: title;
+	  animation-duration: 1s;
+	}
+	@keyframes title {
+		from {width: 65%;}
+		to {width: 75%;}
+		}
+		.main img:hover {
+			width: 80%;
+		}
+
+	.main button {
+		animation: fadein;
+		animation-duration: 3s;
 }
+@keyframes fadein {
+	from {
+		border-top-color: rgba(169, 169, 169, 0);
+		border-left-color: rgba(169, 169, 169, 0);
+		border-bottom-color: rgba(86, 86, 86, 0);
+		border-right-color: rgba(86, 86, 86, 0);
+		background-color: rgba(139, 139, 139, 0);
+		color: rgba(230, 230, 230, 0);
+		text-shadow: 1px 1px rgba(255, 255, 255, 0);
+	}
+	to {
+		border-top-color: rgba(169, 169, 169, 1);
+		border-left-color: rgba(169, 169, 169, 1);
+		border-bottom-color: rgba(86, 86, 86, 1);
+		border-right-color: rgba(86, 86, 86, 1);
+		background-color: rgba(139, 139, 139, 1);
+		color: rgba(230, 230, 230, 1);
+		text-shadow: 1px 1px #333333;
+	}
+}
+
 
 h1 {
   font-size: 5rem;
@@ -48,7 +84,6 @@ p {
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  transition: height 0.5s ease-in-out;
   background-color: rgba(255, 255, 255, 0.5);
   background-image: url(img/painting.png);
   background-size: cover;
@@ -56,35 +91,43 @@ p {
   background-position: center;
   color: #FFFFFF;
   text-shadow: 5px 5px #333333;
+  transition: height 3s;
 }
+	.section-two:hover {
+		height: 45vh;
+	}
 
-.section-two h2 {
-  font-size: 6rem;
-  margin-left: 5vh;
-  line-height: 0%;
-  margin-bottom: 0;
-}
+	.section-two h2 {
+	  font-size: 6rem;
+	  margin-left: 5vh;
+	  line-height: 0%;
+	  margin-bottom: 0;
+	  transition: font-size 3s;
+	}
+		.section-two h2:hover {
+			font-size: 6.4rem;
+		}
+		
+	.wpila-nl {
+	  font-size: 1.5rem;
+	  margin-left: 5vh;
+	  text-shadow: 2px 2px #333333;
+	  margin-top: 0;
+	  color: rgba(235, 235, 235, 235);
+	}
 
-.wpila-nl {
-  font-size: 1.5rem;
-  margin-left: 5vh;
-  text-shadow: 2px 2px #333333;
-  margin-top: 0;
-  color: rgba(235, 235, 235, 235);
-}
+	.wpila-desc {
+	  font-size: 2.5rem;
+	  margin-left: 5vh;
+	  text-shadow: 2px 2px #333333;
+	  margin-top: 0;
+	}
 
-.wpila-desc {
-  font-size: 2.5rem;
-  margin-left: 5vh;
-  text-shadow: 2px 2px #333333;
-  margin-top: 0;
-}
-
-.section-two p {
-  font-size: 1.5rem;
-  margin-left: 5vh;
-  text-shadow: 2px 2px #333333;
-}
+	.section-two p {
+	  font-size: 1.5rem;
+	  margin-left: 5vh;
+	  text-shadow: 2px 2px #333333;
+	}
 
 
 .section-three {
@@ -100,26 +143,34 @@ p {
   background-position: center;
   color: #FFFFFF;
   text-shadow: 5px 5px #333333;
+  transition: height 3s;
 }
+	.section-three:hover {
+		height: 45vh;
+	}
 
-.section-three h2 {
-  font-size: 4rem;
-  margin-right: 5vh;
-  line-height: normal;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
+	.section-three h2 {
+	  font-size: 4rem;
+	  margin-right: 5vh;
+	  line-height: normal;
+	  margin-bottom: 0;
+	  padding-bottom: 0;
+	  transition: font-size 3s;
+	}
+		.section-three h2:hover {
+			font-size: 4.2rem;
+		}
 
-.section-three p {
-  padding-top: 0;
-  margin-top: 0;
-  font-size: 1.5rem;
-  text-align: right;
-  margin-right: 5vh;
-  text-shadow: 2px 2px #333333;
-  line-height: normal;
-  line-break: normal;
-}
+	.section-three p {
+	  padding-top: 0;
+	  margin-top: 0;
+	  font-size: 1.5rem;
+	  text-align: right;
+	  margin-right: 5vh;
+	  text-shadow: 2px 2px #333333;
+	  line-height: normal;
+	  line-break: normal;
+	}
 
 
 .more-projects {
@@ -135,7 +186,7 @@ p {
 
 .about {
   background-color: black;
-  height: 72vh;
+  min-height: 72vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,24 +194,31 @@ p {
   color: rgb(230, 230, 230);
 }
 
-.about h2 {
-  font-size: 3rem;
-  text-align: left;
-  align-items: start;
-  line-height: 0;
-}
+	.about h2 {
+	  font-size: 3rem;
+	  text-align: left;
+	  align-items: start;
+	  line-height: 0;
+	  transition: font-size 1s;
+	}
+		.about h2:hover {font-size: 3.5rem;}
 
-.about img {
-  float: left;
-  margin-left: 1vh;
-  margin-right: 2vh;
-  max-height: 40vh;
-  max-width: 50%;
-}
-
-.about p {
-  font-size: 1.5rem;
-}
+	.about img {
+	  float: left;
+	  margin-left: 1vh;
+	  margin-right: 2vh;
+	  max-height: 40vh;
+	  max-width: 50%;
+	  transition: margin 1s;
+	}
+		.about img:hover {
+			margin-left: 2vh;
+			margin-right: 3vh;
+		}
+	
+	.about p {
+	  font-size: 1.5rem;
+	}
 
 
 
@@ -173,16 +231,16 @@ p {
   justify-content: center;
 }
 
-.footer :any-link {
-  color: #636363;
-}
+	.footer :any-link {
+	  color: #636363;
+	}
 
 button {
-  border-bottom: 6px solid #565656;
-  border-right: 6px solid #565656;
-  border-top: 6px solid #a9a9a9;
-  border-left: 6px solid #a9a9a9;
-  color: rgb(230, 230, 230);
+  border-bottom: 6px solid rgba(86, 86, 86, 1);
+  border-right: 6px solid rgba(86, 86, 86, 1);
+  border-top: 6px solid rgba(169, 169, 169, 1);
+  border-left: 6px solid rgba(169, 169, 169, 1);
+  color: rgba(230, 230, 230, 1);
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
@@ -192,18 +250,18 @@ button {
   margin: 4px 2px;
   transition-duration: 0.2s;
   cursor: pointer;
-  background-color: #8b8b8b;
+  background-color: rgba(139, 139, 139, 1);
   text-shadow: 1px 1px #333333;
 }
+	button:hover {
+	  border-bottom: 6px solid #444444;
+	  border-right: 6px solid #444444;
+	  border-top: 6px solid #979797;
+	  border-left: 6px solid #979797;
+	  color: rgb(226, 226, 226);
+	  background-color: #6d6d6d;
+	}
 
-button:hover {
-  border-bottom: 6px solid #444444;
-  border-right: 6px solid #444444;
-  border-top: 6px solid #979797;
-  border-left: 6px solid #979797;
-  color: rgb(226, 226, 226);
-  background-color: #6d6d6d;
-}
 
 ::selection {
   background: rgba(255, 255, 255, 0.25);
@@ -238,3 +296,11 @@ hr {
   margin: 0;
   padding: 0;
 }
+
+:any-link  {
+	transition: color 0.5s;
+	color rgb(10, 10, 256);
+}
+	:any-link:hover {
+		color: RGB(0, 0, 163);
+	}
