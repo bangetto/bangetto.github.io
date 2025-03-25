@@ -299,7 +299,7 @@ hr {
 
 :any-link  {
 	transition: color 0.5s;
-	color rgb(10, 10, 256);
+	color: rgb(10, 10, 256);
 }
 	:any-link:hover {
 		color: RGB(0, 0, 163);
